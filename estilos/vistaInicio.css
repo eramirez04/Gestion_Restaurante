@@ -1,0 +1,72 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    color: #f1f1f1;
+}
+a{
+    color: #f1f1f1;
+}
+
+.box-reservas{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.reservar{
+    width: 30%;
+}
+
+.inputs-reservas{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-reservas form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-submit{
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+}
+
+.mesas-reservadas{
+    width: 70%;
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mesas_disponibes{
+    width: 100%;
+    height: 50%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}

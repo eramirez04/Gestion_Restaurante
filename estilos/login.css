@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: #7474BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.box-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button-iniciar{
+   background: none;
+    border: 1px solid black;
+    width: 90px;
+    height: 50px;
+    color: #171616;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-iniciar:hover{
+    background-color: white;
+    color: black;
+}
+
+.input-box{
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-box{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 600px;
+    background: #24C6DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: #4CA1AF;
+    height: 80px;
+    border-radius: 10% 0 40% 50px;
+    color: white;
+}

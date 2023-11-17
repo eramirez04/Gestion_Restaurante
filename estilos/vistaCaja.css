@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+    background: #457fca;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5691c8, #457fca);
+    background: linear-gradient(to right, #5691c8, #457fca);
+    color: #f1f1f1;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.box-caja{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    height: 50vh;
+    border-radius: 40px;
+}
+
+.box-factura{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
